@@ -27,7 +27,7 @@ left_column,right_column = st.columns(2)
 with left_column:
     st.subheader("Hi, I am Vicky :wave:")
     st.header(":red[Passion for products]")
-    st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
+    st.write("I am passionate about learning different technologies and finding ways to automate stuff and interpret data efficiently.")
     st.write("[Explore more about my work>](https://github.com/vicky-playground)")
 
 with right_column:
