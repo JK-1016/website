@@ -1,7 +1,6 @@
 PIL
 requests==2.25.1
 streamlit==1.12.2
-streamlit_lottie<0.0.3
 protobuf~=3.19.0
 watchdog==2.1.8
 streamlit-lottie==0.0.3
