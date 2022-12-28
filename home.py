@@ -20,6 +20,7 @@ st.image(Image.open("images/banner.png"),caption = "How the coworkers described 
 lottie_gif = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_zboivc9e.json")
 img_proj1 = Image.open("images/1.png")
 img_proj2 = Image.open("images/2.png")
+img_proj3 = Image.open("images/3.png")
 
 left_column,right_column = st.columns(2)
 
@@ -94,7 +95,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_proj2)
+        st.image(img_proj3)
     with text_column:
         st.markdown('<p class="big-font">My personal portfolio website</p>', unsafe_allow_html=True)
         st.write(
