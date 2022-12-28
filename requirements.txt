@@ -1,4 +1,4 @@
-PIL==9.3.0
+PIL
 requests==2.25.1
 streamlit==1.12.2
 streamlit_lottie<0.0.3
