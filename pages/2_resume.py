@@ -9,7 +9,7 @@ css("style/style.css")
 
 st.title("Resume")
 
-st.write("[Click here if it's blocked by browser](https://drive.google.com/file/d/1mvc-Oh_ZV5BWWxaH0oC-A93emmlZgRJR/view)")
+st.write("[Click here if it's blocked by browser](https://drive.google.com/file/d/1uSMLMe_1KISDcgC-HE8DNF4XcyNYG-J4/view)")
 
 with open("images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
