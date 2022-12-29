@@ -45,7 +45,7 @@ I landed my first IT-related position as a junior business developer at a cross-
 
 Two years ago, I successfully advanced my career and secured a position as a business relationship manager at an HR management system company. To lower the churn rate and raise the usage, I actively engage with Product to collaboratively create a UX roadmap from research to wireframing and write product specs, and offer clients solutions on a daily basis. By conducting usability testing, analyzing user activity, dissecting formulas of employment insurance with Java, and handling data with SQL, I preventively spot problems to ensure the system runs optimally and complies with labor law. To better strengthen my solid skills in the IT field, I applied for the master's degree in Information Systems and Technology at YorkU, and luckily got the fellowship covering all the tuition and most of the costs of living.
 
-I was once young and rebellious but now I have found ways to harness that energy into something I love and am passionate about: Product Management. Having once been lost, I am now ever more ambitious and motivated to dedicate myself to the industry of information technology and pursue further studies without hesitation. My authentic happiness lies in surpassing yesterday's self. This driving force can be proved by the activities I attended, the GitHub projects I built, and Medium articles written in my leisure time. My intrinsic drive allows me to evolve and learn constantly without external force. With the hard skills and soft skills accumulated from the past, I am confident that my determination and thirst for success make me the ideal candidate for your company. Thank you for your consideration and I look forward to joining the team.
+I was once young and rebellious but now I have found ways to harness that energy into something I love and am passionate about: product management. Having once been lost, I am now ever more ambitious and motivated to dedicate myself to the industry of information technology and pursue further studies without hesitation. My authentic happiness lies in surpassing yesterday's self. This driving force can be proved by the activities I attended, the GitHub projects I built, and Medium articles written in my leisure time. My intrinsic drive allows me to evolve and learn constantly without external force. With the hard skills and soft skills accumulated from the past, I am confident that my determination and thirst for success make me the ideal candidate for your company. Thank you for your consideration and I look forward to joining the team.
 
 
         """
@@ -123,7 +123,7 @@ with st.container():
     <form action="https://formsubmit.co/vickytc@yorku.ca" method="POST">
         <input type="hidden" name="_captcha value="false">
         <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="your email" required>
+        <input type="email" name="email" placeholder="Your email" required>
         <textarea name="message" placeholder="Your message here" required></textarea>
         <button type="submit">Send</button>
     </form>
