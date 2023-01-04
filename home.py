@@ -3,21 +3,27 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-st.markdown(
-    """
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y85JJREK4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+ga_html = """
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXWDQVC');</script>
+<!-- End Google Tag Manager -->
+</head>
 
-  gtag('config', 'G-7Y85JJREK4');
-</script>
-   
-    """,
-    unsafe_allow_html=True
-)
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXWDQVC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+"""
+
+st.markdown(ga_html,unsafe_allow_html=True)
 
 def load_lottieurl(url: str):
     r = requests.get(url)
