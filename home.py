@@ -3,6 +3,22 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
+st.markdown(
+    """
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HSGDVVJX6K"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HSGDVVJX6K');
+    </script>
+   
+    """,
+    unsafe_allow_html=True
+)
+
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
