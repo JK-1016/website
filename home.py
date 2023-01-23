@@ -57,7 +57,7 @@ with right_column:
 
 with st.container():
     st.write("---")
-    st.header("About Me - Epic Fails and Silver Linings")
+    st.header("Who am I?")
     st.write('##')
     st.write(
         """
