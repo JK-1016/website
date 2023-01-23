@@ -50,7 +50,7 @@ with left_column:
     st.subheader("Hi, I am Vicky :wave:")
     st.header(":red[Passionate for understanding users' needs and data analytics!]")
     st.write("I enjoy finding ways to automate stuff and interpret data efficiently.")
-    st.write("**[My links>](https://linktr.ee/vickytc)**")
+    st.write("**[My links >](https://linktr.ee/vickytc)**")
 
 with right_column:
     st_lottie(lottie_gif, height=300, key="coding")
