@@ -61,7 +61,8 @@ with st.container():
     st.write('##')
     st.write(
         """
-**:blue[Technical Skills x Business Acumen x User Experience Optimization]** 
+**:blue[Technical Skills ＆ Business Acumen ＆ User Experience Optimization]** 
+
 As far as my technical skillset is concerned, I graduated from a software engineering program and now I’m pursuing a thesis-based IT master’s degree at YorkU (I only have two courses in the evenings this term, and I won’t have any courses from next term). I’m familiar with SDLC not only from working with the engineering team but also from hands-on experience. One of my side projects was a travel website built from scratch using HTML, CSS, JavaScript, Python, and SQL. Also, I tapped into AWS EC2 to make it in the cloud now: http://3.15.192.155:3000/
 
 In addition to my technical skills, I possess a strong understanding of scrum processes. I have a proven track record of lowering the churn rate by 2% overall and executing successful projects with great ROI (560%).
