@@ -38,7 +38,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 #loading assets
-st.image(Image.open("images/banner.png"),caption = "How the coworkers described me.")
+st.image(Image.open("images/banner.png"),caption = "How my coworkers described me.")
 lottie_gif = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_zboivc9e.json")
 img_proj1 = Image.open("images/1.png")
 img_proj2 = Image.open("images/2.png")
@@ -48,7 +48,7 @@ left_column,right_column = st.columns(2)
 
 with left_column:
     st.subheader("Hi, I am Vicky :wave:")
-    st.header(":red[Passionate for data and finding users' needs!]")
+    st.header(":red[Passionate for finding insights from data!]")
     st.write("I enjoy finding ways to automate stuff and interpret data efficiently.")
     st.write("**[My links >](https://linktr.ee/vickytc)**")
 
@@ -61,7 +61,7 @@ with st.container():
     st.write('##')
     st.write(
         """
-**:blue[Technical Skills ＆ Business Acumen ＆ User Experience Optimization]** 
+**:blue[Always exploring!]** 
 
 As far as my technical skillset is concerned, I graduated from a software engineering program and now I’m pursuing a thesis-based IT master’s degree at YorkU (I only have two courses in the evenings this term, and I won’t have any courses from next term). I’m familiar with SDLC not only from working with the engineering team but also from hands-on experience. One of my side projects was a travel website built from scratch using HTML, CSS, JavaScript, Python, and SQL. Also, I tapped into AWS EC2 to make it in the cloud now: http://3.15.192.155:3000/
 
@@ -69,7 +69,7 @@ In addition to my technical skills, I possess a strong understanding of scrum pr
 The two tech companies I worked for before were a cloud-based software company and an eCommerce respectively. Both used agile methodology to build products, and therefore I’m used to daily stand-up meetings to collaborate with multi-functional teams. 
 My commitment to succeed allows me to be the first and only business developer in AsiaYo who was assigned to work alongside a team of engineers to handle anomaly detection of API integration. After being promoted to a key account manager in the midst of company downsizing due to the pandemic, I’ve broadened my skills in team training, user journey optimization, and project management. I also deliberately fought for opportunities to build product requirements documents with the developers. This process made me realize that I felt the most rewarding when I could increase higher engagement rate and consequently reduce the churn rate by creating value for the users. Therefore, I honed in and secured a position as a Solution Implementation Consultant at a Singaporean HR information system company, Swingvy, to help Taiwanese clients troubleshoot their issues, assist them with data wrangling and analyses, and worked closely with the engineering team based in Korea to redesign the product to cater to Taiwanese customers and comply with the local law.
 
-Recently, machine learning is what I’m studying this term. I’ve implemented various types of machine learning models in Python including regressors and classifiers after preprocessing datasets. Also, I will attend Canadian AI this June to learn more about cutting-edge technology. 
+Recently, machine learning is what I’m studying this term. I’ve implemented various types of machine learning models in Python including regressors and classifiers after preprocessing datasets. Also, I will attend Canadian AI this June to learn more about cutting-edge technology and give a presentation. 
 
 With the hard skills and soft skills accumulated from the past, and a passion about learning, I can confidently say that I'm ready for an opportunity for me to showcase my skills and determination for success.
         """
