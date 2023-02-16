@@ -136,7 +136,7 @@ st.subheader("2. Data Analysis & Machine Learning:")
 st.markdown('<p class="big-font"><a href="https://github.com/vicky-playground/EHR-GDP/blob/main/city_comparison_code/EHR%20City.ipynb" style="font-size: 26px"><li>Electronic Healthcare Record Subsidy Program and Socioeconomics</li></a></p>', unsafe_allow_html=True)
 st.markdown('<p class="big-font"><a href="https://github.com/vicky-playground/ML-wine-quality" style="font-size: 26px"><li>Wine classification</li></a></p>', unsafe_allow_html=True)
 st.markdown('<p class="big-font"><a href="https://dune.com/vickytc/custom-nft-dashboard" style="font-size: 26px"><li>NFT Transactions</li></a></p>', unsafe_allow_html=True)
-st.markdown('<p class="big-font"><a href="https://public.tableau.com/app/profile/vickytc/viz/Hospital_16702548094680/Overview" style="font-size: 26px"><li>SunnyBrook Hospital Project using Tableau</li></a></p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font"><a href="https://public.tableau.com/app/profile/vickytc" style="font-size: 26px"><li>SunnyBrook Hospital Project using Tableau</li></a></p>', unsafe_allow_html=True)
 
 
 with st.container():
